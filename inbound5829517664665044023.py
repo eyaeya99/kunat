@@ -1,0 +1,17 @@
+a="Rose"
+b="Daisy"
+c="Shitzu"
+d="Bulldog"
+e=input(" Enter your Choice: ")
+
+print(e)
+
+if e == "a" or e == "b":
+    print(" You selected a type of flower ")
+    
+elif e == "c" or e == "d":
+    print(" You selected a type of dog breed ")
+    
+else:
+    print(" Wrong selection ")
+    
